@@ -1,3 +1,4 @@
+''' 인스턴스 변수를 initialize 하기 위한 메소드를 작성하는 코드 '''
 class User:
     def initialize(self, name, email, password):
         self.name = name
