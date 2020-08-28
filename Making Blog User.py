@@ -1,3 +1,4 @@
+''' 2개의 클래스를 이용하여 변수 초기화, 출력문 형식 지정하기 '''
 class Post:
     # 게시글 클래스
     def __init__(self, date, content):
@@ -7,7 +8,7 @@ class Post:
 
     def __str__(self):
         # 게시글의 정보를 문자열로 리턴하는 메소드
-        return "작성 날짜: {}\n내용: {}\n".format(self.date, self.content)
+        return "작성 날짜: {}\n내용: {}".format(self.date, self.content)
 
 
 class BlogUser:
@@ -23,16 +24,20 @@ class BlogUser:
     def add_post(self, date, content):
         # 새로운 게시글 추가
         self.posts.append(Post(date, content))
+            # 파라미터로 받은 게시일과 내용을 Post 클래스의 인스턴스 초기화 기능으로 리스트에 추가
 
     def show_all_posts(self):
         # 블로그 유저의 모든 게시글 출력
-        for i in range(0, len(self.posts) // 2):
-            print(self.posts[i], self.posts[i+1])
+        for post in self.posts:
+            print(post)
+                # ★실수가 있었던 부분. for i in range(0, len(self.posts) // 2)의 꼴로
+                # 반복문을 작성했다. 결과는 정상적으로 출력됐지만, white space가 들어갔다.
+                # 인덱스를 활용한 반복문 외에 다양한 형태에도 익숙해지돌록 노력해야겠다.
 
 
     def __str__(self):
         # 간단한 인사와 이름을 문자열로 리턴
-        return "안녕하세요. {}입니다.\n".format(self.name)
+        return "안녕하세요 {}입니다.\n".format(self.name)
             # 이와 같은 형식으로 return문의 형식을 지정해주거나, 2개 이상의 값을 반환할 수 있다.
 
 
