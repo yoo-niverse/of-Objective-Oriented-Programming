@@ -7,7 +7,7 @@ class Post:
 
     def __str__(self):
         # 게시글의 정보를 문자열로 리턴하는 메소드
-        return "작성 날짜: {}\n내용: {}".format(self.date, self.content)
+        return "작성 날짜: {}\n내용: {}\n".format(self.date, self.content)
 
 
 class BlogUser:
@@ -22,15 +22,18 @@ class BlogUser:
 
     def add_post(self, date, content):
         # 새로운 게시글 추가
-        self.posts.append(Post(date,content))
+        self.posts.append(Post(date, content))
 
     def show_all_posts(self):
         # 블로그 유저의 모든 게시글 출력
-        return self.posts
+        for i in range(0, len(self.posts) // 2):
+            print(self.posts[i], self.posts[i+1])
+
 
     def __str__(self):
         # 간단한 인사와 이름을 문자열로 리턴
-        return (self.name)
+        return "안녕하세요. {}입니다.\n".format(self.name)
+            # 이와 같은 형식으로 return문의 형식을 지정해주거나, 2개 이상의 값을 반환할 수 있다.
 
 
 
