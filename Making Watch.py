@@ -58,18 +58,14 @@ class Clock:
         각각 시, 분, 초를 나타내는 카운터 인스턴스 3개(hour, minute, second)를 정의한다.
         현재 시간을 파라미터 hour시, minute분, second초로 지정한다.
         """
-        Counter(Clock.HOURS)
-        Counter(Clock.MINUTES)
-        Counter(Clock.SECONDS)
         self.hour = hour
         self.minute = minute
         self.second = second
 
     def set(self, hour, minute, second):
         """현재 시간을 파라미터 hour시, minute분, second초로 설정한다."""
-        Counter.set(self, hour)
-        Counter.set(self, minute)
-        Counter.set(self, second)
+
+
 
 
     def tick(self):
