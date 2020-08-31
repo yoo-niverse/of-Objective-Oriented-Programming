@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="666f000b-0df3-48b2-86e8-b3424b61cf1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Making Counter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Making Watch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +40,7 @@
       <recent name="D:\Users\Yoonsung\Documents\GitHub\of-Objective Oriented Programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Making Blog User">
+  <component name="RunManager" selected="Python.Making Counter">
     <configuration name="Making Blog User" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="of-Objective Oriented Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -52,27 +54,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Making Blog User.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Making Calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="of-Objective Oriented Programming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Making Calculator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,13 +125,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Making Counter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="of-Objective Oriented Programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Making Counter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Making Counter" />
         <item itemvalue="Python.Making Blog User" />
         <item itemvalue="Python.Making Character(efficient)" />
         <item itemvalue="Python.Making Character(inefficient) (1)" />
         <item itemvalue="Python.Making Character(inefficient)" />
-        <item itemvalue="Python.Making Calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -158,33 +160,33 @@
     <configuration />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1801" height="362" key="GridCell.Tab.0.bottom" timestamp="1598631608230">
-      <screen x="0" y="0" width="1829" height="1080" />
+    <state width="1322" height="884" key="GridCell.Tab.0.bottom" timestamp="1598883493122">
+      <screen x="2400" y="0" width="1350" height="2363" />
     </state>
     <state width="1322" height="709" key="GridCell.Tab.0.bottom/0.0.1829.1080/2400.-5.1350.2363@2400.-5.1350.2363" timestamp="1596201113257" />
     <state width="1801" height="362" key="GridCell.Tab.0.bottom/0.0.1829.1080/2400.0.1350.2363@0.0.1829.1080" timestamp="1598631608230" />
-    <state width="1322" height="362" key="GridCell.Tab.0.bottom/0.0.1829.1080/2400.0.1350.2363@2400.0.1350.2363" timestamp="1598625627680" />
+    <state width="1322" height="884" key="GridCell.Tab.0.bottom/0.0.1829.1080/2400.0.1350.2363@2400.0.1350.2363" timestamp="1598883493122" />
     <state width="2372" height="362" key="GridCell.Tab.0.bottom/0.0.1829.1080/2400.0.2400.1313@2400.0.2400.1313" timestamp="1598577384326" />
-    <state width="1801" height="362" key="GridCell.Tab.0.center" timestamp="1598631608230">
-      <screen x="0" y="0" width="1829" height="1080" />
+    <state width="1322" height="884" key="GridCell.Tab.0.center" timestamp="1598883493122">
+      <screen x="2400" y="0" width="1350" height="2363" />
     </state>
     <state width="1322" height="709" key="GridCell.Tab.0.center/0.0.1829.1080/2400.-5.1350.2363@2400.-5.1350.2363" timestamp="1596201113256" />
     <state width="1801" height="362" key="GridCell.Tab.0.center/0.0.1829.1080/2400.0.1350.2363@0.0.1829.1080" timestamp="1598631608230" />
-    <state width="1322" height="362" key="GridCell.Tab.0.center/0.0.1829.1080/2400.0.1350.2363@2400.0.1350.2363" timestamp="1598625627680" />
+    <state width="1322" height="884" key="GridCell.Tab.0.center/0.0.1829.1080/2400.0.1350.2363@2400.0.1350.2363" timestamp="1598883493122" />
     <state width="2372" height="362" key="GridCell.Tab.0.center/0.0.1829.1080/2400.0.2400.1313@2400.0.2400.1313" timestamp="1598577384326" />
-    <state width="1801" height="362" key="GridCell.Tab.0.left" timestamp="1598631608230">
-      <screen x="0" y="0" width="1829" height="1080" />
+    <state width="1322" height="884" key="GridCell.Tab.0.left" timestamp="1598883493122">
+      <screen x="2400" y="0" width="1350" height="2363" />
     </state>
     <state width="1322" height="709" key="GridCell.Tab.0.left/0.0.1829.1080/2400.-5.1350.2363@2400.-5.1350.2363" timestamp="1596201113256" />
     <state width="1801" height="362" key="GridCell.Tab.0.left/0.0.1829.1080/2400.0.1350.2363@0.0.1829.1080" timestamp="1598631608230" />
-    <state width="1322" height="362" key="GridCell.Tab.0.left/0.0.1829.1080/2400.0.1350.2363@2400.0.1350.2363" timestamp="1598625627680" />
+    <state width="1322" height="884" key="GridCell.Tab.0.left/0.0.1829.1080/2400.0.1350.2363@2400.0.1350.2363" timestamp="1598883493122" />
     <state width="2372" height="362" key="GridCell.Tab.0.left/0.0.1829.1080/2400.0.2400.1313@2400.0.2400.1313" timestamp="1598577384326" />
-    <state width="1801" height="362" key="GridCell.Tab.0.right" timestamp="1598631608230">
-      <screen x="0" y="0" width="1829" height="1080" />
+    <state width="1322" height="884" key="GridCell.Tab.0.right" timestamp="1598883493122">
+      <screen x="2400" y="0" width="1350" height="2363" />
     </state>
     <state width="1322" height="709" key="GridCell.Tab.0.right/0.0.1829.1080/2400.-5.1350.2363@2400.-5.1350.2363" timestamp="1596201113257" />
     <state width="1801" height="362" key="GridCell.Tab.0.right/0.0.1829.1080/2400.0.1350.2363@0.0.1829.1080" timestamp="1598631608230" />
-    <state width="1322" height="362" key="GridCell.Tab.0.right/0.0.1829.1080/2400.0.1350.2363@2400.0.1350.2363" timestamp="1598625627680" />
+    <state width="1322" height="884" key="GridCell.Tab.0.right/0.0.1829.1080/2400.0.1350.2363@2400.0.1350.2363" timestamp="1598883493122" />
     <state width="2372" height="362" key="GridCell.Tab.0.right/0.0.1829.1080/2400.0.2400.1313@2400.0.2400.1313" timestamp="1598577384326" />
   </component>
 </project>
