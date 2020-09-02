@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="666f000b-0df3-48b2-86e8-b3424b61cf1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/006. 추상화, Docstring/User class_Docstring.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Making Watch.py" beforeDir="false" afterPath="$PROJECT_DIR$/Making Watch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classmethod_1(Question).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classmethod_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Initialize.py" beforeDir="false" afterPath="$PROJECT_DIR$/001. __init__ 메소드 활용/Initialize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Making Blog User(Question).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Making Blog User.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Making Calculator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Making Character(efficient).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Making Character(inefficient).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Making Counter(Question).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Making Counter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Making Watch(Q).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Making Watch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice of Creating Instances.py" beforeDir="false" afterPath="$PROJECT_DIR$/001. __init__ 메소드 활용/Practice of Creating Instances.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__(Question).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +51,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Yoonsung\Documents\GitHub\of-Objective Oriented Programming\001. __init__ 메소드 활용" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Users\Yoonsung\Documents\GitHub\of-Objective Oriented Programming" />
     </key>
