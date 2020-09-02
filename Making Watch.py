@@ -58,14 +58,18 @@ class Clock:
         각각 시, 분, 초를 나타내는 카운터 인스턴스 3개(hour, minute, second)를 정의한다.
         현재 시간을 파라미터 hour시, minute분, second초로 지정한다.
         """
-        self.hour = hour
-        self.minute = minute
-        self.second = second
+        self.hour = Counter(Clock.HOURS)
+        self.minute = Counter(Clock.MINUTES)
+        self.second = Counter(Clock.SECONDS)
+
+        Clock.set(self, hour, minute, second)
+
 
     def set(self, hour, minute, second):
         """현재 시간을 파라미터 hour시, minute분, second초로 설정한다."""
-
-
+        self.hour.set(hour)
+        self.minute.set(minute)
+        self.second.set(second)
 
 
     def tick(self):
@@ -73,12 +77,8 @@ class Clock:
         초 카운터의 값을 1만큼 증가시킨다.
         초 카운터를 증가시킬 때, 분 또는 시가 바뀌어야하는 경우도 처리한다.
         """
-        if Counter.tick(self):
-            if self.minute < Clock.MINUTES:
-                self.minute += 1
-            else:
-                self.minute = 0
-                self.hour += 1
+        if self.second.tick():
+            self.minute.set(1)
 
 
     def __str__(self):
@@ -86,7 +86,7 @@ class Clock:
         현재 시간을 시:분:초 형식으로 리턴한다. 시, 분, 초는 두 자리 형식이다.
         예시: "03:11:02"
         """
-        return (f'{str(self.hour).zfill(2)}:{str(self.minute).zfill(2)}:{str(self.second).zfill(2)}')
+        return(f"{self.hour}:{self.minute}:{self.second}")
 
 
 # 초가 60이 넘을 때 분이 늘어나는지 확인하기
