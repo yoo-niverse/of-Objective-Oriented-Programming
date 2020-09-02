@@ -1,3 +1,4 @@
+''' 시간 설정, 시간 증가 등 counter 클래스를 기반으로 시계 클래스 제작 '''
 class Counter:
     """
     시계 클래스의 시,분,초를 각각 나타내는데 사용될 카운터 클래스
@@ -61,8 +62,11 @@ class Clock:
         self.hour = Counter(Clock.HOURS)
         self.minute = Counter(Clock.MINUTES)
         self.second = Counter(Clock.SECONDS)
+            # 시, 분, 초를 각각 Counter 클래스의 객체로 생성했다.
+            # 동시에 각 값별 최댓값을 전달하여 설정되도록 하였다.
 
         Clock.set(self, hour, minute, second)
+            # 파라미터로 받은 설정시간은 clock 클래스의 set 메소드를 활용하여 설정하도록 했다.
 
 
     def set(self, hour, minute, second):
@@ -70,6 +74,7 @@ class Clock:
         self.hour.set(hour)
         self.minute.set(minute)
         self.second.set(second)
+            # init 메소드에서 전달받은 값들을 이용하여 Counter 클래스의 set 메소드를 통해 설정했다.
 
 
     def tick(self):
@@ -78,7 +83,10 @@ class Clock:
         초 카운터를 증가시킬 때, 분 또는 시가 바뀌어야하는 경우도 처리한다.
         """
         if self.second.tick():
-            self.minute.set(1)
+            if self.minute.tick():
+                self.hour.tick()
+                    # tick 메소드에서 한계값을 초과할 경우 True가 반환되는 것을 활용하여 if문을 적용했다.
+                    # '초'가 초과되면 '분'을 증가시키고, '분'이 초과되면 '시'를 증가시키도록 했다.
 
 
     def __str__(self):
