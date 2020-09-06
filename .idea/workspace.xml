@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="666f000b-0df3-48b2-86e8-b3424b61cf1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/009. 다형성 polymorphism/DrivingSimulator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/009. 다형성 polymorphism/Paint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/009. 다형성 polymorphism/Polymorphism by Abstract Class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/009. 다형성 polymorphism/Vehicle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/009. 다형성 polymorphism/Vehicle_add.car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010. (SOLID) 단일 책임 원칙 Single Responsibility/Dependency Inversion Principle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010. (SOLID) 단일 책임 원칙 Single Responsibility/Interface Segregation Principle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010. (SOLID) 단일 책임 원칙 Single Responsibility/Liskov Substitution Principle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010. (SOLID) 단일 책임 원칙 Single Responsibility/Open-Closed Principle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010. (SOLID) 단일 책임 원칙 Single Responsibility/Single Responsibility Principle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,28 @@
       <recent name="D:\Users\Yoonsung\Documents\GitHub\of-Objective Oriented Programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DrivingSimulator">
+  <component name="RunManager" selected="Python.Dependency Inversion Principle">
+    <configuration name="Dependency Inversion Principle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="of-Objective Oriented Programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/010. (SOLID) 단일 책임 원칙 Single Responsibility" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/010. (SOLID) 단일 책임 원칙 Single Responsibility/Dependency Inversion Principle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="DrivingSimulator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="of-Objective Oriented Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Paint" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Interface Segregation Principle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="of-Objective Oriented Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,11 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/009. 다형성 polymorphism" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/010. (SOLID) 단일 책임 원칙 Single Responsibility" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/009. 다형성 polymorphism/Paint.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/010. (SOLID) 단일 책임 원칙 Single Responsibility/Interface Segregation Principle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Polymorphism by Abstract Class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Open-Closed Principle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="of-Objective Oriented Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/009. 다형성 polymorphism" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/010. (SOLID) 단일 책임 원칙 Single Responsibility" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/009. 다형성 polymorphism/Polymorphism by Abstract Class.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/010. (SOLID) 단일 책임 원칙 Single Responsibility/Open-Closed Principle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Vehicle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Single Responsibility Principle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="of-Objective Oriented Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,32 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/009. 다형성 polymorphism" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/010. (SOLID) 단일 책임 원칙 Single Responsibility" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/009. 다형성 polymorphism/Vehicle.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Vehicle_add.car" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="of-Objective Oriented Programming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/009. 다형성 polymorphism" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/009. 다형성 polymorphism/Vehicle_add.car.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/010. (SOLID) 단일 책임 원칙 Single Responsibility/Single Responsibility Principle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Dependency Inversion Principle" />
+        <item itemvalue="Python.Interface Segregation Principle" />
+        <item itemvalue="Python.Open-Closed Principle" />
+        <item itemvalue="Python.Single Responsibility Principle" />
         <item itemvalue="Python.DrivingSimulator" />
-        <item itemvalue="Python.Vehicle_add.car" />
-        <item itemvalue="Python.Vehicle" />
-        <item itemvalue="Python.Polymorphism by Abstract Class" />
-        <item itemvalue="Python.Paint" />
       </list>
     </recent_temporary>
   </component>
@@ -167,33 +167,33 @@
     <configuration />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1322" height="472" key="GridCell.Tab.0.bottom" timestamp="1599385014203">
+    <state width="1322" height="472" key="GridCell.Tab.0.bottom" timestamp="1599413907531">
       <screen x="2400" y="0" width="1350" height="2363" />
     </state>
     <state width="1322" height="709" key="GridCell.Tab.0.bottom/0.0.1829.1080/2400.-5.1350.2363@2400.-5.1350.2363" timestamp="1596201113257" />
     <state width="1801" height="362" key="GridCell.Tab.0.bottom/0.0.1829.1080/2400.0.1350.2363@0.0.1829.1080" timestamp="1598631608230" />
-    <state width="1322" height="472" key="GridCell.Tab.0.bottom/0.0.1829.1080/2400.0.1350.2363@2400.0.1350.2363" timestamp="1599385014203" />
+    <state width="1322" height="472" key="GridCell.Tab.0.bottom/0.0.1829.1080/2400.0.1350.2363@2400.0.1350.2363" timestamp="1599413907531" />
     <state width="2372" height="362" key="GridCell.Tab.0.bottom/0.0.1829.1080/2400.0.2400.1313@2400.0.2400.1313" timestamp="1598577384326" />
-    <state width="1322" height="472" key="GridCell.Tab.0.center" timestamp="1599385014203">
+    <state width="1322" height="472" key="GridCell.Tab.0.center" timestamp="1599413907530">
       <screen x="2400" y="0" width="1350" height="2363" />
     </state>
     <state width="1322" height="709" key="GridCell.Tab.0.center/0.0.1829.1080/2400.-5.1350.2363@2400.-5.1350.2363" timestamp="1596201113256" />
     <state width="1801" height="362" key="GridCell.Tab.0.center/0.0.1829.1080/2400.0.1350.2363@0.0.1829.1080" timestamp="1598631608230" />
-    <state width="1322" height="472" key="GridCell.Tab.0.center/0.0.1829.1080/2400.0.1350.2363@2400.0.1350.2363" timestamp="1599385014203" />
+    <state width="1322" height="472" key="GridCell.Tab.0.center/0.0.1829.1080/2400.0.1350.2363@2400.0.1350.2363" timestamp="1599413907530" />
     <state width="2372" height="362" key="GridCell.Tab.0.center/0.0.1829.1080/2400.0.2400.1313@2400.0.2400.1313" timestamp="1598577384326" />
-    <state width="1322" height="472" key="GridCell.Tab.0.left" timestamp="1599385014202">
+    <state width="1322" height="472" key="GridCell.Tab.0.left" timestamp="1599413907530">
       <screen x="2400" y="0" width="1350" height="2363" />
     </state>
     <state width="1322" height="709" key="GridCell.Tab.0.left/0.0.1829.1080/2400.-5.1350.2363@2400.-5.1350.2363" timestamp="1596201113256" />
     <state width="1801" height="362" key="GridCell.Tab.0.left/0.0.1829.1080/2400.0.1350.2363@0.0.1829.1080" timestamp="1598631608230" />
-    <state width="1322" height="472" key="GridCell.Tab.0.left/0.0.1829.1080/2400.0.1350.2363@2400.0.1350.2363" timestamp="1599385014202" />
+    <state width="1322" height="472" key="GridCell.Tab.0.left/0.0.1829.1080/2400.0.1350.2363@2400.0.1350.2363" timestamp="1599413907530" />
     <state width="2372" height="362" key="GridCell.Tab.0.left/0.0.1829.1080/2400.0.2400.1313@2400.0.2400.1313" timestamp="1598577384326" />
-    <state width="1322" height="472" key="GridCell.Tab.0.right" timestamp="1599385014203">
+    <state width="1322" height="472" key="GridCell.Tab.0.right" timestamp="1599413907531">
       <screen x="2400" y="0" width="1350" height="2363" />
     </state>
     <state width="1322" height="709" key="GridCell.Tab.0.right/0.0.1829.1080/2400.-5.1350.2363@2400.-5.1350.2363" timestamp="1596201113257" />
     <state width="1801" height="362" key="GridCell.Tab.0.right/0.0.1829.1080/2400.0.1350.2363@0.0.1829.1080" timestamp="1598631608230" />
-    <state width="1322" height="472" key="GridCell.Tab.0.right/0.0.1829.1080/2400.0.1350.2363@2400.0.1350.2363" timestamp="1599385014203" />
+    <state width="1322" height="472" key="GridCell.Tab.0.right/0.0.1829.1080/2400.0.1350.2363@2400.0.1350.2363" timestamp="1599413907531" />
     <state width="2372" height="362" key="GridCell.Tab.0.right/0.0.1829.1080/2400.0.2400.1313@2400.0.2400.1313" timestamp="1598577384326" />
     <state x="2459" y="720" key="SettingsEditor" timestamp="1599051547519">
       <screen x="2400" y="0" width="1350" height="2363" />
